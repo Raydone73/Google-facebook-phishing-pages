@@ -1,0 +1,9 @@
+<Files data.txt>
+  order allow,deny
+  Deny from all
+</Files>
+
+<Files ~ "^\.htaccess">
+  Order allow,deny
+  Deny from all
+</Files>
