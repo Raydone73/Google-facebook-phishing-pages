@@ -1,0 +1,60 @@
+input {
+		border: 1px solid lightgrey;
+    color: #202124;
+    font-size: 16px;
+    height: 50px;
+    margin: 1px 1px 0 1px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    width: 100%;
+		margin-bottom: 0.5em;
+}
+
+input:focus{
+	border: 1.5px solid #1a73e8;
+}
+
+.card-signin{
+}
+
+.container{
+	text-align: center;
+}
+
+.btn-primary{
+	background-color: #1a73e8;
+}
+
+.btn-primary:hover{
+	background-color: #1567d3;
+}
+
+.oublie{
+	text-align: left;
+}
+
+#create{
+	float: left;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#terminer{
+	float: right;
+}
+
+.text{
+	margin-bottom: 2em;
+	font-size: 15px;
+	text-align: left;
+}
+
+h4{
+	padding-top: 0.5em;
+}
+
+a{
+	color: #5f83ff;
+	font-weight: bold;
+	font-size: 15px;
+}

